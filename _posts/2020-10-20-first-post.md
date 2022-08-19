@@ -51,6 +51,16 @@ $$
 $$
          \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
 $$
+\(
+         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
+\(
+\[
+         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
+\]
+\\[ \frac{1}{n^{2}} \\]
+{% raw %}
+  $$a^2 + b^2 = c^2$$ 
+ {% endraw %}
 
 Note that $$\sin \alpha \approx \alpha$$ when $$0<\alpha \ll 1$$.
 
