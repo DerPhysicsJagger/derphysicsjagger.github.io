@@ -9,7 +9,7 @@ categories: demo
 
 **a** Choose $O$ of coordinate system is placed at the center of the disk. Consider in the rotating frame of reference with vertical angular velocity $\Omega_0$.
 
-In this frame, there is only the rotating part $$\omega_x \hat{\Vec{x}}$$ in order to fix the contact point. 
+In this frame, there is only the rotating part $$\omega_x \hat{\vec{x}}$$ in order to fix the contact point. 
 
 From the non-slipping condition we would have that
 $$
