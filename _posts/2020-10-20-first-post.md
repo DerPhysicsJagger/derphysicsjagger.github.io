@@ -62,9 +62,8 @@ $$
 
 \\[ \frac{1}{n^{2}} \\]
 
-{% raw %}
-  $$a^2 + b^2 = c^2$$ 
- {% endraw %}
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 Note that $$\sin \alpha \approx \alpha$$ when $$0<\alpha \ll 1$$.
 
