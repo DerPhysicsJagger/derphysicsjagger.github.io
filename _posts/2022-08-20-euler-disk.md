@@ -109,7 +109,7 @@ $$
 \end{align}
 $$
 
-Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. Eq.$\ref{eq:test1}$
+Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. 
 
 
 **d,** Integrate the above differential equation, we can solve for $\alpha (t)$
