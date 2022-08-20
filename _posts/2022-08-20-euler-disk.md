@@ -91,14 +91,14 @@ $$
 \end{align}
 $$
 
-**c,** When the contact point of the disk passes a bump, the lost energy is $\Delta E = M g h $ in an interval of time $\displaystyle \Delta t = \frac{\delta}{v_p}$, in which $v_p = \Omega a \cos \alpha$ is the velocity of the contact point.
+**c,** When the contact point of the disk passes a bump, the lost energy is $\Delta E = m g h $ in an interval of time $\displaystyle \Delta t = \frac{\delta}{v_p}$, in which $v_p = \Omega a \cos \alpha$ is the velocity of the contact point.
 
 Consequently, we have the equation
 
 $$
 \begin{align*}
-     \frac{dE}{dt}& = \frac{d}{dt} \left(\frac{3}{2} Mg a \sin \alpha \right) = - \frac{Mgh}{\cfrac{\delta}{\Omega a \cos \alpha}}\\
-    \frac{3}{2} Mg a \cos \alpha \dot{\alpha} &= - \frac{Mgh}{\delta} \Omega a \cos \alpha.
+     \frac{dE}{dt}& = \frac{d}{dt} \left(\frac{3}{2} m g a \sin \alpha \right) = - \frac{mgh}{\cfrac{\delta}{\Omega a \cos \alpha}}\\
+    \frac{3}{2} mg a \cos \alpha \dot{\alpha} &= - \frac{mgh}{\delta} \Omega a \cos \alpha.
 \end{align*}
 $$
 
