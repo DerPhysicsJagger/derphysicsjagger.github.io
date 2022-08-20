@@ -45,6 +45,13 @@ From the Euler's equation of precession, we have
 \Rightarrow \Omega_0 &= \boxed{2 \sqrt{\frac{g}{a \sin \alpha_0}}}.
 \end{equation}
 
+$$
+\begin{align*} 
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{align*}
+$$
+
 **b,** The total energy of the disk is given by 
 \begin{align}
         E &= m g a \sin \alpha_0 + \frac{1}{2} \frac{1}{4} m a^2 \omega_{tot}^2\\
