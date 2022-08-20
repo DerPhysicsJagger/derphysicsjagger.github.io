@@ -18,7 +18,6 @@ categories: gallery
 
 ## **Euler's Disk**
 
-![image info](/images/avt.jpg)
 
 ### **Problem**
 
@@ -41,7 +40,9 @@ but with $\alpha_0 \ll 1$.
 
 **a,** Choose $O$ of coordinate system is placed at the center of the disk. Consider in the rotating frame of reference with vertical angular velocity $\Omega_0$.
 
-
+<p align="center">
+  <img width="460" height="300" src="images/gallery/eulerdisk/eulerdisk.png">
+</p>
 
 In this frame, there is only the rotating part $\omega_x \hat{\boldsymbol{x}}$ in order to fix the contact point. 
 
