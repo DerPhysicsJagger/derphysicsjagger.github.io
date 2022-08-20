@@ -68,7 +68,7 @@ $$
 \end{align}
 $$
  
-which lies on the plane of the disk and go through the contact point. As a result, the angular momentum of the disk is therefore $\boldsymbol{L} = I_z \boldsymbol{\omega}_{tot} = \frac{1}{4} m a^2 \Omega_0 \sin \theta \hat{\boldsymbol{z}}$.
+which lies on the plane of the disk and go through the contact point. As a result, the angular momentum of the disk is therefore $\boldsymbol{L} = I_z \boldsymbol{\omega}_{tot} = \frac{1}{4} m a^2 \Omega_0 \sin \alpha_0 \hat{\boldsymbol{z}}$.
 
 From the Euler's equation of precession, we have
 
