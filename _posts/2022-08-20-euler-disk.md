@@ -142,10 +142,10 @@ against the surface to reach the maximum audible frequency $f_0$ is given by
 $$
 \begin{equation}
     \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
-    \label{eq:test2}
+    \tag{test2}
 \end{equation}
 $$
 
-Eq.$\ref{eq:test2}$
+Eq.$\ref{test2}$
 
 
