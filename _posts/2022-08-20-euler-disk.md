@@ -98,11 +98,12 @@ $$
 
 $$
 \begin{align}
-         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. \label{eq:test1}
+         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
+         \label{eq:test1}
 \end{align}
 $$
 
-Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. Eq.$\eqref{eq:test1}$
+Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. Eq.$\ref{eq:test1}$
 
 
 **d,** Integrate the above differential equation, we can solve for $\alpha (t)$
@@ -141,7 +142,10 @@ against the surface to reach the maximum audible frequency $f_0$ is given by
 $$
 \begin{equation}
     \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
+    \label{eq:test2}
 \end{equation}
 $$
+
+Eq.$\ref{eq:test2}$
 
 
