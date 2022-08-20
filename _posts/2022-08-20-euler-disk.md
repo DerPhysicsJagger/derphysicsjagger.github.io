@@ -18,7 +18,7 @@ categories: gallery
 
 ## **Euler's Disk**
 
-![image info](images/avt.jpg)
+![image info](/images/avt.jpg)
 
 ### **Problem**
 
