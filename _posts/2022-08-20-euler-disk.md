@@ -60,7 +60,7 @@ $$
         &=\Omega_0 \sin \alpha_0 \hat{\boldsymbol{z}}.
 \end{align}
 $$
-
+ 
 which lies on the plane of the disk and go through the contact point.
 
 From the Euler's equation of precession, we have
