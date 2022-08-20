@@ -2,7 +2,7 @@
 layout: post
 title: "Relativistic Mirror"
 author: "Zinc"
-tags: relmir
+tags: first markdown example
 categories: gallery
 ---
 
