@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Euler's Disk
+title: "Euler's Disk"
+author: "Zinc"
 tags: first markdown example
 categories: gallery
 ---
@@ -15,12 +16,11 @@ categories: gallery
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-window.MathJax = {
-  tex: {
-    tags: 'ams'
-  }
-};
-
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
 
 ## **Euler's Disk**
 
@@ -153,5 +153,11 @@ against the surface to reach the maximum audible frequency $f_0$ is given by
 
 
 Eq.$\eqref{2}$
+
+\begin{equation} \label{eq:test}
+  Y_i = \beta_0 + \beta_1 x_i + \epsilon_i
+\end{equation}
+
+Equation $\eqref{eq:test}$ works in PDF, but does not works in HTML.
 
 
