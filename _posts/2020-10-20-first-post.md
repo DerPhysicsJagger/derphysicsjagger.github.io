@@ -16,7 +16,7 @@ categories: demo
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
-
+## **Euler's Disk**
 
 **a,** Choose $$O$$ of coordinate system is placed at the center of the disk. Consider in the rotating frame of reference with vertical angular velocity $$\Omega_0$$.
 
