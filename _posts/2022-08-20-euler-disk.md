@@ -49,7 +49,7 @@ In this frame, there is only the rotating part $\omega_x \hat{\boldsymbol{x}}$ i
 
 From the non-slipping condition we would have that
 \begin{equation}
-    \Omega_0 a \cos \alpha_0 = - \omega_x a \Rightarrow \omega_x = -\Omega_0 \cos \alpha_0.
+    \Omega_0 a \cos \alpha_0 = - \omega_x a \Rightarrow \omega_x = -\Omega_0 \cos \alpha_0. 
 \end{equation}
 
 Back to the laboratory frame, we will have the total angular velocity
@@ -97,10 +97,10 @@ $$
 $$
 
 \begin{equation}
-         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
+         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. \label{eq:test1}
 \end{equation}
 
-Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$.
+Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. Eq.$\eqref{eq:test1}$
 
 
 **d,** Integrate the above differential equation, we can solve for $\alpha (t)$
