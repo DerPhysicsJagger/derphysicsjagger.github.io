@@ -19,11 +19,7 @@ MathJax.Hub.Config({
     TeX: { equationNumbers: { autoNumber: "AMS" } }
 });
 
-MathJax.Hub.Queue(
-  ["resetEquationNumbers", MathJax.InputJax.TeX],
-  ["PreProcess", MathJax.Hub],
-  ["Reprocess", MathJax.Hub]
-);
+
 
 ## **Euler's Disk**
 
