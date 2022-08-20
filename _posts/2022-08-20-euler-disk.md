@@ -20,6 +20,8 @@ categories: gallery
 
 ## **Euler's Disk**
 
+![image info](avt.jpg)
+
 ### **Problem**
 
 A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\alpha_0$ to the horizontal, on a frictionless surface. It is given an initial angular velocity $\Omega_0$ with respect to a vertical axis passing through its center.
