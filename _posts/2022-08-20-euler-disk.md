@@ -26,7 +26,6 @@ A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\a
 
 **a,** Determine $\Omega_0$ for the steady state case, where $\dot{\alpha} = \ddot{\alpha} = \dot{\Omega} = 0$.
 
-$\vspace{-1mm}$
 **b,** Write an expression for the total energy of the disk.
 
 The disk is then moved onto a special surface with small bumps of height $h$ spread over it – each bump is separated by $\delta$. As the disk climbs over a bump and falls back down, its impact is absorbed by the surface, causing a net energy loss in the system. The disk is set in motion with the same initial conditions as before
@@ -142,3 +141,46 @@ $$
     \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
 \end{equation}
 $$
+
+
+
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage[startNumber = false, tightLists = false]{markdown}
+\newcommand\alphabeticallists{%
+    \markdownSetup{
+        renderers = {
+            olBegin = {\begin{enumerate}[a)]},
+            olEnd = {\end{enumerate}}
+        }
+    }%
+}
+\newcommand\numberedlists{%
+    \markdownSetup{
+        renderers = {
+            olBegin = {\begin{enumerate}[1.]},
+            olEnd = {\end{enumerate}}
+        }
+    }%
+}
+\begin{document}
+\begin{markdown*}{hybrid}
+
+\alphabeticallists
+
+The following list will be alphabetical:
+
+1. first item
+2. second item
+3. third item
+
+\numberedlists
+
+The following list will be numbered:
+
+1. first item
+2. second item
+3. third item
+
+\end{markdown*}
+\end{document}
