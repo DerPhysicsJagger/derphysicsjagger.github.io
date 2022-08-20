@@ -2,7 +2,7 @@
 layout: post
 title: Euler's Disk
 tags: first markdown example
-categories: demo
+categories: gallery
 ---
 
  <script type="text/x-mathjax-config">
@@ -79,7 +79,6 @@ $$
 
 Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$.
 
-\vspace{2mm}
 
 **d,** Integrate the above differential equation, we can solve for $$\alpha (t)$$
 
@@ -91,7 +90,7 @@ $$
 \end{align}
 $$
 
-where $$t_0$$ is the initial moment of time.
+where $t_0$ is the initial moment of time.
 
 Consequently, we can express $\Omega(t)$, which is given by
 
