@@ -18,6 +18,22 @@ categories: gallery
 
 ## **Euler's Disk**
 
+### **Problem**
+
+A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\alpha_0$ to the horizontal, on a frictionless surface. It is given an initial angular velocity $\Omega_0$ with respect to a vertical axis passing through its center.
+
+a, Determine $\Omega_0$ for the steady state case, where $\dot{\alpha} = \ddot{\alpha} = \dot{\Omega} = 0$.
+b, Write an expression for the total energy of the disk.
+
+The disk is then moved onto a special surface with small bumps of height $h$ spread over it – each bump is separated by $\delta$. As the disk climbs over a bump and falls back down, its impact is absorbed by the surface, causing a net energy loss in the system. The disk is set in motion with the same initial conditions as before
+but with $\alpha_0 \ll 1$.
+
+c, Assuming that this is the only source of energy loss, write a differential equation for $\dot{\alpha}$ in first order to $\alpha$.
+d, Hence, write an approximate expression for $\Omega$ as a function of time.
+e, Using this model, determine the time it takes for the frequency of the sound the disk makes against the surface to reach the maximum audible frequency $f_0$.
+
+### **Solution**
+
 **a,** Choose $O$ of coordinate system is placed at the center of the disk. Consider in the rotating frame of reference with vertical angular velocity $\Omega_0$.
 
 
@@ -80,7 +96,7 @@ $$
 Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$.
 
 
-**d,** Integrate the above differential equation, we can solve for $$\alpha (t)$$
+**d,** Integrate the above differential equation, we can solve for $\alpha (t)$
 
 $$
 \begin{align}
