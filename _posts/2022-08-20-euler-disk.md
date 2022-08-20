@@ -15,10 +15,11 @@ categories: gallery
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-MathJax.Hub.Config({
-    TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-
+window.MathJax = {
+  tex: {
+    tags: 'ams'
+  }
+};
 
 
 ## **Euler's Disk**
