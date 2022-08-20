@@ -20,7 +20,7 @@ categories: gallery
 
 ## **Euler's Disk**
 
-![image info](avt.jpg)
+![image info](images/avt.jpg)
 
 ### **Problem**
 
