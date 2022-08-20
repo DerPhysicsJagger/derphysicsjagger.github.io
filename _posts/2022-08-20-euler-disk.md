@@ -23,8 +23,17 @@ categories: gallery
 
 A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\alpha_0$ to the horizontal, on a frictionless surface. It is given an initial angular velocity $\Omega_0$ with respect to a vertical axis passing through its center.
 
+$$
+\begin{enumerate}
+  \item Determine $\Omega_0$ for the steady state case, where $\dot{\alpha} = \ddot{\alpha} = \dot{\Omega} = 0$.
+  \item Write an expression for the total energy of the disk.
+\end{enumerate}
+$$
+
+
 **a,** Determine $\Omega_0$ for the steady state case, where $\dot{\alpha} = \ddot{\alpha} = \dot{\Omega} = 0$.
 
+$\vspace{-1mm}$
 **b,** Write an expression for the total energy of the disk.
 
 The disk is then moved onto a special surface with small bumps of height $h$ spread over it – each bump is separated by $\delta$. As the disk climbs over a bump and falls back down, its impact is absorbed by the surface, causing a net energy loss in the system. The disk is set in motion with the same initial conditions as before
