@@ -148,16 +148,8 @@ against the surface to reach the maximum audible frequency $f_0$ is given by
 
 \begin{equation}
     \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
-    \tag{2}
 \end{equation}
 
 
-Eq.$\eqref{2}$
-
-\begin{equation} \label{eq:test}
-  Y_i = \beta_0 + \beta_1 x_i + \epsilon_i
-\end{equation}
-
-Equation $\eqref{eq:test}$ works in PDF, but does not works in HTML.
 
 
