@@ -145,13 +145,13 @@ Easily see that $\Omega(t)$ approaches infinity while $\alpha(t)$ approaches zer
 Interval of time for the frequency of the sound the disk makes
 against the surface to reach the maximum audible frequency $f_0$ is given by
 
-$$
+
 \begin{equation}
     \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
-    \tag{test2}
+    \tag{2}
 \end{equation}
-$$
 
-Eq.$\ref{test2}$
+
+Eq.$\eqref{2}$
 
 
