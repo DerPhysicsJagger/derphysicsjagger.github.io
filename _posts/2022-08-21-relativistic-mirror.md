@@ -31,7 +31,7 @@ An observer who is fixed to the frame of reference $K$, observing a perfect refl
 
 **a,** Find the apparent and real velocity of the image and the mirror.
 
-**b,** If the light consists of photons with wavelength $\lambda_0$, what will the wavelength $\lambda$ of photons that the observer capture be?
+**b,** If the light consists of photons with wavelength $\lambda_0$, what will the wavelength $\lambda$ of photons that the observer captures be?
 
 
 ### **Solution**
