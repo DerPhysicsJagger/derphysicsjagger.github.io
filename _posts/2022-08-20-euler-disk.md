@@ -125,9 +125,12 @@ $$
 \end{align*}
 $$
 
+
+Assuming the disk spends most of its time falling down from a bump, we can approximate its COM’s acceleration to be $a \dot{\alpha} \approx g$. Fully simplifying the equation above, we get:
+
 $$
 \begin{align}
-         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{3} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{3 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
+         \Rightarrow \boxed{\dot{\alpha} =-\frac{4}{5} \frac{h}{\delta } \sqrt{\frac{g}{a \sin \alpha}} \approx - \frac{4 h}{5 \delta} \sqrt{\frac{g}{a}} \alpha^{-1/2}}. 
          \label{eq:test1}
 \end{align}
 $$
@@ -139,9 +142,9 @@ Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$.
 
 $$
 \begin{align}
-       \int_{\alpha_0}^{\alpha(t)} \alpha^{1/2} d\alpha&= -\frac{4h}{3\delta}\sqrt{\frac{g}{a}} \int_{t_0}^{t} dt\\
-       \frac{2}{3} \left(\alpha(t)^{3/2} - \alpha_0^{3/2} \right)& = -\frac{4h}{3\delta}\sqrt{\frac{g}{a}} (t-t_0)\\
-       \Rightarrow \alpha(t)&=\alpha_0 \left[ 1 - \frac{2h}{\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{2/3}.
+       \int_{\alpha_0}^{\alpha(t)} \alpha^{1/2} d\alpha&= -\frac{4h}{5\delta}\sqrt{\frac{g}{a}} \int_{t_0}^{t} dt\\
+       \frac{2}{5} \left(\alpha(t)^{3/2} - \alpha_0^{3/2} \right)& = -\frac{4h}{5\delta}\sqrt{\frac{g}{a}} (t-t_0)\\
+       \Rightarrow \alpha(t)&=\alpha_0 \left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{2/3}.
 \end{align}
 $$
 
@@ -151,18 +154,18 @@ Consequently, we can express $\Omega(t)$, which is given by
 
 $$
 \begin{align}
-        \Omega(t) &= 2 \sqrt{\frac{g}{a \sin \alpha(t)}} \approx \boxed{2 \sqrt{\frac{g}{a \alpha_0}} \left[ 1 - \frac{2h}{\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}}\\
-        & = \Omega_0 \left[ 1 - \frac{2h}{\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}.
+        \Omega(t) &= 2 \sqrt{\frac{g}{a \sin \alpha(t)}} \approx \boxed{2 \sqrt{\frac{g}{a \alpha_0}} \left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}}\\
+        & = \Omega_0 \left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}.
 \end{align}
 $$
 
-Easily see that $\Omega(t)$ approaches infinity while $\alpha(t)$ approaches zero. The time for the disk to completely settle down on the horizontal surface is $\displaystyle \tau = t_0+ \frac{\delta \alpha_0^{3/2}}{2h} \sqrt{\frac{a}{g}}$.
+Easily see that $\Omega(t)$ approaches infinity while $\alpha(t)$ approaches zero. The time for the disk to completely settle down on the horizontal surface is $\displaystyle \tau = t_0+ \frac{5\delta \alpha_0^{3/2}}{6h} \sqrt{\frac{a}{g}}$.
 
 
 **e,** Two consecutive collisions with two bumps will produce a single wavelength of sound. That means
 
 \begin{equation}
- f = \frac{\Omega a \cos \alpha}{\delta} \approx \Omega \frac{a}{\delta} =  \frac{2}{\delta} \sqrt{\frac{ga}{ \alpha_0}}\left[ 1 - \frac{2h}{\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}.
+ f = \frac{\Omega a \cos \alpha}{\delta} \approx \Omega \frac{a}{\delta} =  \frac{2}{\delta} \sqrt{\frac{ga}{ \alpha_0}}\left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}.
 \end{equation}
 
 Interval of time for the frequency of the sound the disk makes
@@ -170,7 +173,7 @@ against the surface to reach the maximum audible frequency $f_0$ is given by
 
 
 \begin{equation}
-    \boxed{\tau_0 = \frac{\delta \alpha_0^{3/2}}{2 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
+    \boxed{\tau_0 = \frac{5\delta \alpha_0^{3/2}}{6 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
 \end{equation}
 
 
