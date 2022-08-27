@@ -143,7 +143,7 @@ Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$.
 $$
 \begin{align}
        \int_{\alpha_0}^{\alpha(t)} \alpha^{1/2} d\alpha&= -\frac{4h}{5\delta}\sqrt{\frac{g}{a}} \int_{t_0}^{t} dt\\
-       \frac{2}{5} \left(\alpha(t)^{3/2} - \alpha_0^{3/2} \right)& = -\frac{4h}{5\delta}\sqrt{\frac{g}{a}} (t-t_0)\\
+       \frac{2}{3} \left(\alpha(t)^{3/2} - \alpha_0^{3/2} \right)& = -\frac{4h}{5\delta}\sqrt{\frac{g}{a}} (t-t_0)\\
        \Rightarrow \alpha(t)&=\alpha_0 \left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{2/3}.
 \end{align}
 $$
