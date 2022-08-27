@@ -97,7 +97,7 @@ $$
 \end{align}
 $$
 
-**c,** Consider one revolution of the contact point around the $z_0$ axis. Since the radius of the circle on the table is $R \cos \alpha$, the contact point moves a distance $2\pi a \cos \alpha$ around the coin during this time. Hence, the new contact point on the coin is a distance $2 \pi a − 2\pi a \cos \alpha$ away from the original contact point. The coin therefore appears to have rotated by a fraction $(1 − \cos \alpha)$ of a full turn during this time. The frequency with which you see it turn is therefore
+**c,** Consider one revolution of the contact point around the $z_0$ axis. Since the radius of the circle on the table is $a \cos \alpha$, the contact point moves a distance $2\pi a \cos \alpha$ around the coin during this time. Hence, the new contact point on the coin is a distance $2 \pi a − 2\pi a \cos \alpha$ away from the original contact point. The coin therefore appears to have rotated by a fraction $(1 − \cos \alpha)$ of a full turn during this time. The frequency with which you see it turn is therefore
 
 $$
 \begin{align}
