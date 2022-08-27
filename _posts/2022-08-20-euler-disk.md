@@ -38,14 +38,16 @@ A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\a
 
 **b,** Write an expression for the total energy of the disk.
 
+**c,** When observing from the vertical axis through the center of the disk, what will one can see the angular velocity of an arrow mark on the disk surface?
+
 The disk is then moved onto a special surface with small bumps of height $h$ spread over it – each bump is separated by $\delta$. As the disk climbs over a bump and falls back down, its impact is absorbed by the surface, causing a net energy loss in the system. The disk is set in motion with the same initial conditions as before
 but with $\alpha_0 \ll 1$.
 
-**c,** Assuming that this is the only source of energy loss, write a differential equation for $\dot{\alpha}$ in first order to $\alpha$.
+**d,** Assuming that this is the only source of energy loss, write a differential equation for $\dot{\alpha}$ in first order to $\alpha$.
 
-**d,** Hence, write an approximate expression for $\Omega$ as a function of time.
+**e,** Hence, write an approximate expression for $\Omega$ as a function of time.
 
-**e,** Using this model, determine the time it takes for the frequency of the sound the disk makes against the surface to reach the maximum audible frequency $f_0$.
+**f,** Using this model, determine the time it takes for the frequency of the sound the disk makes against the surface to reach the maximum audible frequency $f_0$.
 
 ### **Solution**
 
@@ -95,7 +97,15 @@ $$
 \end{align}
 $$
 
-**c,** When the contact point of the disk passes a bump, the lost energy is $\Delta E = m g h $ in an interval of time $\displaystyle \Delta t = \frac{\delta}{v_p}$, in which $v_p = \Omega a \cos \alpha$ is the velocity of the contact point.
+**c,** Consider one revolution of the contact point around the $z_0$ axis. Since the radius of the circle on the table is $R \cos \alpha$, the contact point moves a distance $2\pi a \cos \theta$ around the coin during this time. Hence, the new contact point on the coin is a distance $2 \pi a − 2\pi a \cos \alpha$ away from the original contact point. The coin therefore appears to have rotated by a fraction $(1 − \cos \alpha)$ of a full turn during this time. The frequency with which you see it turn is therefore
+
+$$
+\begin{align}
+        \Omega' = \Omega (1 - \cos \alpha) = 2(1 - \cos \alpha) \sqrt{\frac{g}{a \sin \alpha}}.
+\end{align}
+$$
+
+**d,** When the contact point of the disk passes a bump, the lost energy is $\Delta E = m g h $ in an interval of time $\displaystyle \Delta t = \frac{\delta}{v_p}$, in which $v_p = \Omega a \cos \alpha$ is the velocity of the contact point.
 
 When the disk is falling down horizontally, we must take account the motion of the center of mass. 
 
@@ -138,7 +148,7 @@ $$
 Note that $\sin \alpha \approx \alpha$ when $0<\alpha \ll 1$. 
 
 
-**d,** Integrate the above differential equation, we can solve for $\alpha (t)$
+**e,** Integrate the above differential equation, we can solve for $\alpha (t)$
 
 $$
 \begin{align}
@@ -162,7 +172,7 @@ $$
 Easily see that $\Omega(t)$ approaches infinity while $\alpha(t)$ approaches zero. The time for the disk to completely settle down on the horizontal surface is $\displaystyle \tau = t_0+ \frac{5\delta \alpha_0^{3/2}}{6h} \sqrt{\frac{a}{g}}$.
 
 
-**e,** Two consecutive collisions with two bumps will produce a single wavelength of sound. That means
+**f,** Two consecutive collisions with two bumps will produce a single wavelength of sound. That means
 
 $$
 \begin{align*}
