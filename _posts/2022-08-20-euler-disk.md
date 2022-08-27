@@ -164,18 +164,20 @@ Easily see that $\Omega(t)$ approaches infinity while $\alpha(t)$ approaches zer
 
 **e,** Two consecutive collisions with two bumps will produce a single wavelength of sound. That means
 
-\begin{equation}
+$$
+\begin{align*}
  f = \frac{\Omega a \cos \alpha}{\delta} \approx \Omega \frac{a}{\delta} =  \frac{2}{\delta} \sqrt{\frac{ga}{ \alpha_0}}\left[ 1 - \frac{6h}{5\delta \alpha_0^{3/2}} \sqrt{\frac{g}{a}} (t-t_0) \right]^{-1/3}.
-\end{equation}
+\end{align*}
+$$
 
 Interval of time for the frequency of the sound the disk makes
 against the surface to reach the maximum audible frequency $f_0$ is given by
 
-
-\begin{equation}
+$$
+\begin{align*}
     \boxed{\tau_0 = \frac{5\delta \alpha_0^{3/2}}{6 h } \sqrt{\frac{a}{g}} \left[ 1 - \left( \frac{2}{\delta f_0}\sqrt{\frac{ga}{\alpha_0}}\right)^3 \right]}.
-\end{equation}
-
+\end{align*}
+$$
 
 
 
