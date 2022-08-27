@@ -24,7 +24,6 @@ MathJax.Hub.Config({
 
 ## **Euler's Disk**
 
-<p style='text-align: justify;'>
 
 ### **Introduction**
 
@@ -181,4 +180,3 @@ $$
 $$
 
 
-</p>
