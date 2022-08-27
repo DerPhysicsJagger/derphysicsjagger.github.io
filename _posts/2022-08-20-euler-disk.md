@@ -25,6 +25,10 @@ MathJax.Hub.Config({
 ## **Euler's Disk**
 
 
+### **Introduction**
+
+**Euler's Disk**, invented between 1987 and 1990 by Joseph Bendik, is a trademark for a scientific educational toy. It is used to illustrate and study the dynamic system of a spinning and rolling disk on a flat or curved surface. It has been the subject of several scientific papers. Joseph Bendik first noted the interesting motion of the spinning disk while working at Hughes Aircraft (Carlsbad Research Center) after spinning a heavy polishing chuck on his desk at lunch one day. The apparatus is a dramatic visualization of energy exchanges in three different, tightly coupled processes. As the disk gradually decreases its azimuthal rotation, there is also a decrease in amplitude and increase in the frequency of the disk's axial precession. The evolution of the disk's axial precession is easily visualized in a slow motion video by looking at the side of the disk following a single point marked on the disk. The evolution of the rotation of the disk is easily visualized in slow motion by looking at the top of the disk following an arrow drawn on the disk representing its radius. As the disk releases the initial energy given by the user and approaches a halt, its rotation about the vertical axis slows, while its contact point oscillation increases. Lit from above, its contact point and nearby lower edge in shadow, the disk appears to levitate before halting. Bendik named the toy after mathematician Leonhard Euler.
+
 ### **Problem**
 
 A thin, uniform disk of mass $m$ and radius $a$ is initially set at an angle $\alpha_0$ to the horizontal, on a frictionless surface. It is given an initial angular velocity $\Omega_0$ with respect to a vertical axis passing through its center.
@@ -93,12 +97,31 @@ $$
 
 **c,** When the contact point of the disk passes a bump, the lost energy is $\Delta E = m g h $ in an interval of time $\displaystyle \Delta t = \frac{\delta}{v_p}$, in which $v_p = \Omega a \cos \alpha$ is the velocity of the contact point.
 
-Consequently, we have the equation
+When the disk is falling down horizontally, we must take account the motion of the center of mass. 
+
+The velocity of the COM is therefore
 
 $$
 \begin{align*}
-     \frac{dE}{dt}& = \frac{d}{dt} \left(\frac{3}{2} m g a \sin \alpha \right) = - \frac{mgh}{\cfrac{\delta}{\Omega a \cos \alpha}}\\
-    \frac{3}{2} mg a \cos \alpha \dot{\alpha} &= - \frac{mgh}{\delta} \Omega a \cos \alpha.
+     v_{COM} = \frac{d}{dt} (a \sin \alpha) = a\cos \alpha \frac{d\alpha}{dt} \approx a \dot{\alpha}.
+\end{align*}
+$$
+
+
+Hence, we have the energy of the falling disk
+$$
+\begin{align*}
+     E &= \frac{1}{2} m v^2_{COM} + \frac{3}{2} mga \sin \alpha\\
+     &\approx \frac{1}{2} m a^2 \dot{\alpha}^2 + \frac{3}{2} mga \alpha.
+\end{align*}
+$$
+
+Consequently, we have the equation 
+
+$$
+\begin{align*}
+     \frac{dE}{dt}& = \frac{d}{dt} \left(\frac{1}{2} m a^2 \dot{\alpha}^2 +\frac{3}{2} m g a \alpha \right) = - \frac{mgh}{\cfrac{\delta}{\Omega a \cos \alpha}}\\
+    \frac{3}{2} mg a  \dot{\alpha} + ma^2 \dot{\alpha} \ddot{\alpha}&= - \frac{mgh}{\delta} \Omega a \cos \alpha.
 \end{align*}
 $$
 
